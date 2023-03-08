@@ -1,5 +1,78 @@
-body {
-  padding: 0;
-  margin: 0;
+* {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
+  margin-top: 2rem;
+}
+
+.heading {
+  margin-top: 2rem;
+}
+
+.score {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.scores {
+  margin-top: 1rem;
+  list-style: none;
+  width: 50%;
+  border: 2px solid #000;
+}
+
+.display {
+  width: 50%;
+}
+
+.users {
+  padding: 1rem;
+}
+
+.users2 {
+  background-color: rgb(194, 194, 194);
+}
+
+.form-add {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.form-add input {
+  width: 60%;
+  padding: 0.5rem;
+  border: 2px solid #000;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn {
+  width: 5rem;
+  background: rgb(119, 119, 119);
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+}
+
+.btn:hover {
+  background: rgb(194, 194, 194);
 }
