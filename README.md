@@ -2,7 +2,27 @@
 
 # Leader Board
 
-> In this website you will add scores and also see your scores.
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+  > In this website you will add scores and also see your scores.
 
 ## Built With
 
@@ -10,6 +30,11 @@
 - CSS
 - JavaScript
 - Webpack
+
+### Key Features
+
+- Adding your name with score
+- Check other scores the leaderboard
 
 ## Getting Started
 
@@ -34,7 +59,10 @@
 - GitHub: [@enis-memic](https://github.com/enis-memic)
 - LinkedIn: [enis-memic](https://linkedin.com/in/enis-memic)
 
-<!-- CONTRIBUTING -->
+## 🔭 Future Features
+
+- Update design to look better
+- Make it responsive
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -45,6 +73,10 @@ Feel free to check the [issues page](https://github.com/enis-memic/Leaderboard/i
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## 🙏 Acknowledgments
+
+I would like to thank Microverse!
 
 ## 📝 License
 
