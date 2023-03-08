@@ -1,5 +1,3 @@
-import display from './displayScore.js';
-
 const addList = async () => {
   const user = document.getElementById('user').value;
   const score = document.getElementById('score').value;
@@ -21,7 +19,6 @@ const addList = async () => {
       },
     ).then((response) => response.json());
 
-    display();
     document.getElementById('user').value = '';
     document.getElementById('score').value = '';
   }
