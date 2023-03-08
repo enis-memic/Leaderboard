@@ -11,6 +11,11 @@
 - JavaScript
 - Webpack
 
+### Key Features
+
+- Adding your name with score
+- Check other scores the leaderboard
+
 ## Getting Started
 
 ### Run this command to install dependencies
@@ -34,7 +39,10 @@
 - GitHub: [@enis-memic](https://github.com/enis-memic)
 - LinkedIn: [enis-memic](https://linkedin.com/in/enis-memic)
 
-<!-- CONTRIBUTING -->
+## 🔭 Future Features
+
+- Update design to look better
+- Make it responsive
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -45,6 +53,10 @@ Feel free to check the [issues page](https://github.com/enis-memic/Leaderboard/i
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## 🙏 Acknowledgments
+
+I would like to thank Microverse!
 
 ## 📝 License
 
