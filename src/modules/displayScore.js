@@ -2,7 +2,7 @@ const list = document.querySelector('.scores');
 
 const display = async () => {
   await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ZzTksmy84M8hs7hPCvtI/scores/'
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ZzTksmy84M8hs7hPCvtI/scores/',
   )
     .then((response) => response.json())
     .then((json) => {
