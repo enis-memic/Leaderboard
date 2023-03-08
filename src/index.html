@@ -22,10 +22,10 @@
     <div class="container">
       <h1>Leaderboard</h1>
       <div class="row mt-5">
-        <div class="col-md-6">
+        <div class="col-sm-12 col-md-6">
           <div class="d-flex">
             <h2 class="me-2">Recent Scores</h2>
-            <button class="btn btn-primary">Refresh</button>
+            <button class="btn btn-primary" id="refresh">Refresh</button>
           </div>
           <table class="table table-striped table-hover mt-2">
             <thead class="table-primary">
@@ -36,30 +36,16 @@
             </thead>
             <tbody>
               <tr>
-                <td>Name</td>
-                <td>100</td>
-              </tr>
-              <tr>
-                <td>Name</td>
-                <td>200</td>
-              </tr>
-              <tr>
-                <td>Name</td>
-                <td>300</td>
-              </tr>
-              <tr>
-                <td>Name</td>
-                <td>400</td>
-              </tr>
-              <tr>
-                <td>Name</td>
-                <td>500</td>
+                <td colspan="2">
+                  Please press refresh button to see the scores
+                </td>
               </tr>
             </tbody>
           </table>
         </div>
-        <div class="col-md-6">
+        <div class="col-sm-12 col-md-6">
           <h2>Add Your Score</h2>
+          <h4 class="text-success text-center" id="msg"></h4>
           <form>
             <div class="mb-3">
               <label for="nameField" class="form-label">Name</label>
@@ -69,7 +55,9 @@
               <label for="scoreField" class="form-label">Score</label>
               <input type="number" class="form-control" id="scoreField" />
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" id="saveScore">
+              Submit
+            </button>
           </form>
         </div>
       </div>
