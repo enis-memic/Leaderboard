@@ -44,12 +44,15 @@ body {
   text-align: center;
   padding: 0;
 }
+
 .para {
   text-shadow: 1px 1px rgb(0 0 0 / 10%), 0 0 15px #fff;
 }
+
 .scoring {
   text-shadow: 1px 1px rgb(0 0 0 / 10%), 0 0 15px #fff;
 }
+
 .display {
   width: 50%;
 }
@@ -78,6 +81,7 @@ body {
   font-weight: 600;
   background-color: rgba(161, 161, 255, 0.774);
 }
+
 .form-add input::placeholder {
   color: aliceblue;
 }
@@ -88,7 +92,6 @@ body {
   font-weight: bold;
   color: white;
   border: 0 none;
-  border-radius: 1px;
   cursor: pointer;
   padding: 10px 5px;
   margin: 10px 5px;
@@ -99,6 +102,7 @@ body {
 .btn:hover {
   background: rgb(194, 194, 194);
 }
+
 .btn-refresh:active {
   background-color: aliceblue;
 }
