@@ -35,6 +35,11 @@
 
 - Adding your name with score
 - Check other scores the leaderboard
+- Impressive design
+
+## Live Demo
+
+- Live demo will be provided after final review!
 
 ## Getting Started
 
@@ -61,7 +66,6 @@
 
 ## 🔭 Future Features
 
-- Update design to look better
 - Make it responsive
 
 ## 🤝 Contributing <a name="contributing"></a>
