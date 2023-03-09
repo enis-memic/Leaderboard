@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+body {
+  background: url(./images/backgorund.jpg) no-repeat center fixed;
+  background-size: cover;
+  color: aliceblue;
+}
+
 .main {
   margin: 0 auto;
   width: 80%;
@@ -12,12 +18,14 @@
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 5%;
   margin-top: 2rem;
+  margin-left: 10rem;
 }
 
 .heading {
   margin-top: 2rem;
+  margin-left: 10rem;
+  text-shadow: 1px 1px rgb(0 0 0 / 10%), 0 0 15px #fff;
 }
 
 .score {
@@ -29,8 +37,20 @@
 .scores {
   margin-top: 1rem;
   list-style: none;
-  width: 50%;
-  border: 2px solid #000;
+  width: 100%;
+  border: 2px solid #567dffd8;
+  background-color: rgba(161, 161, 255, 0.774);
+  border-radius: 2rem;
+  text-align: center;
+  padding: 0;
+}
+
+.para {
+  text-shadow: 1px 1px rgb(0 0 0 / 10%), 0 0 15px #fff;
+}
+
+.scoring {
+  text-shadow: 1px 1px rgb(0 0 0 / 10%), 0 0 15px #fff;
 }
 
 .display {
@@ -42,7 +62,7 @@
 }
 
 .users2 {
-  background-color: rgb(194, 194, 194);
+  background-color: rgba(161, 161, 255, 0.774);
 }
 
 .form-add {
@@ -54,25 +74,35 @@
 .form-add input {
   width: 60%;
   padding: 0.5rem;
-  border: 2px solid #000;
+  border: 2px solid #567dffd8;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
   font-size: 1rem;
   font-weight: 600;
+  background-color: rgba(161, 161, 255, 0.774);
+}
+
+.form-add input::placeholder {
+  color: aliceblue;
 }
 
 .btn {
   width: 5rem;
-  background: rgb(119, 119, 119);
+  background: #567dffd8;
   font-weight: bold;
   color: white;
   border: 0 none;
-  border-radius: 1px;
   cursor: pointer;
   padding: 10px 5px;
   margin: 10px 5px;
+  border-radius: 1rem;
+  text-shadow: 1px 1px rgb(0 0 0 / 10%), 0 0 15px #fff;
 }
 
 .btn:hover {
   background: rgb(194, 194, 194);
+}
+
+.btn-refresh:active {
+  background-color: aliceblue;
 }
