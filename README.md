@@ -1,6 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Leader Board
+### Leader Board
+
+> In this website you will add scores and also see your scores.
 
 # 📗 Table of Contents
 
@@ -22,7 +24,6 @@
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
-  > In this website you will add scores and also see your scores.
 
 ## Built With
 
@@ -39,7 +40,7 @@
 
 ## Live Demo
 
-- Live demo will be provided after final review!
+- Live: [Check it here](https://enis-memic.github.io/Leaderboard/dist/)
 
 ## Getting Started
 
